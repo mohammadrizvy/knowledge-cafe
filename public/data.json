@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "image":"https://images.unsplash.com/photo-1631624215749-b10b3dd7bca7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fHByb2dyYW1pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+        "author-name": "Mr. Raju",
+        "author-image":"https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "blog-title":"How to get your first job as a self-taught programmer",
+        "published-date":"Mar 14 (4 Days ago)",
+        "reading-time": "05 min read"
+    },
+    {
+        "id": "2",
+        "image":"https://images.unsplash.com/photo-1605379399843-5870eea9b74e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=898&q=80",
+        "author-name": "Mina Mostofa",
+        "author-image":"https://images.unsplash.com/photo-1496360166961-10a51d5f367a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "blog-title":"How to get your first job as a self-taught programmer",
+        "published-date":"Mar 14 (4 Days ago)",
+        "reading-time": "10 min read"
+    },
+    {
+        "id": "3",
+        "image":"https://images.unsplash.com/photo-1631624215749-b10b3dd7bca7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "author-name": "Mrs. Setara",
+        "author-image":"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "blog-title":"How to get your first job as a self-taught programmer",
+        "published-date":"Mar 14 (4 Days ago)",
+        "reading-time": "12 min read"
+    },
+    {
+        "id": "4",
+        "image":"https://images.unsplash.com/photo-1545658969-19d8799171f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "author-name": "Mohammad Rizvy",
+        "author-image":"https://scontent.fjsr8-1.fna.fbcdn.net/v/t39.30808-6/279840048_2812764762359662_3920043551120267353_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=174925&_nc_ohc=ehTZKaqV8ckAX9dEvgn&_nc_ht=scontent.fjsr8-1.fna&oh=00_AfBsjcOA7fM6ulAEovGDbeMLzaA2CTLOOmwOmR4zWrVHJA&oe=642BCBE5",
+        "blog-title":"How to get your first job as a self-taught programmer",
+        "published-date":"Mar 14 (4 Days ago)",
+        "reading-time": "14 min read"
+    }
+]
