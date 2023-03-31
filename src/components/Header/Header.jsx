@@ -5,20 +5,26 @@ const Header = () => {
     <div>
       <div className="navbar bg-base-100 border-b container mx-auto pt-8 pb-6">
         <div className="flex-1">
-          <h1 className="btn-ghost normal-case text-4xl font-bold ">
+          <h1 className="btn-ghost normal-case text-3xl font-bold ">
             Knowledge Cafe
           </h1>
         </div>
         <div className="flex-none ">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <p className=" text-xl font-semibold">Login</p>
+              <a href="#" className=" text-lg font-semibold">
+                Login
+              </a>
             </li>
             <li>
-              <p className=" text-xl font-semibold">Help</p>
+              <a href="#" className=" text-lg font-semibold">
+                Help
+              </a>
             </li>
             <li>
-              <p className=" text-xl font-semibold">About</p>
+              <a href="#" className=" text-lg font-semibold">
+                About
+              </a>
             </li>
           </ul>
         </div>
