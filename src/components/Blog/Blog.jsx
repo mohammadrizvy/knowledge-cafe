@@ -1,5 +1,6 @@
 import React from "react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fa4, fa5, faBookBookmark, faBookmark, faSave, } from "@fortawesome/free-solid-svg-icons";
 const Blog = (props) => {
   const {
     image,
@@ -17,12 +18,18 @@ const Blog = (props) => {
           <img className="rounded-full w-16 mt-6" src={author_image} alt="" />
           <div className="mt-7 ms-5">
             <h1 className="font-bold text-lg mb-1">{author_name}</h1>
-            <h1 className="font-semibold text-sm text-zinc-500">{published_date}</h1>
+            <h1 className="font-semibold text-sm text-zinc-500">
+              {published_date}
+            </h1>
           </div>
         </div>
         <div className="flex items-center">
-          <p className="font-semibold text-sm text-zinc-500 me-1">{reading_time} min read</p>
-          <a href="#"></a>
+          <p className="font-semibold text-sm text-zinc-500 me-2">
+            {reading_time} min read
+          </p>
+          <a className="text-xl" href="#">
+            <FontAwesomeIcon icon={faBookmark} />
+          </a>
         </div>
       </div>
       <h1 className="text-3xl font-bold mt-2">{blog_title}</h1>
