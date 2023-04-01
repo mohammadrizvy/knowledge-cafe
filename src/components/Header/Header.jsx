@@ -5,7 +5,7 @@ const Header = () => {
     <div>
       <div className="navbar bg-base-100 border-b container mx-auto pt-8 pb-6">
         <div className="flex-1">
-          <h1 className="btn-ghost normal-case text-3xl font-bold ">
+          <h1 className="btn-ghost normal-case text-5xl font-bold ">
             Knowledge Cafe
           </h1>
         </div>
