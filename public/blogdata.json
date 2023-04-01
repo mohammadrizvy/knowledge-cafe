@@ -6,7 +6,7 @@
         "author_image":"https://scontent.fjsr8-1.fna.fbcdn.net/v/t39.30808-6/292702571_2854822054820599_6940172555118243550_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_ohc=qP4WleqYsFYAX8c9RVQ&_nc_ht=scontent.fjsr8-1.fna&oh=00_AfDKws5kVjUmP2tDcA5o6yIQObBc4-5rCXflDsEPos98uw&oe=642B2525",
         "blog_title":"How to get your first job as a self-taught programmer !",
         "published_date":"Mar 14 (4 Days ago)",
-        "reading_time": "5 "
+        "reading_time": 5
     },
     {
         "id": "2",
@@ -15,7 +15,7 @@
         "author_image":"https://scontent.fjsr8-1.fna.fbcdn.net/v/t39.30808-6/283157662_2820973578205447_1457407360142237905_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=174925&_nc_ohc=7DdXjuE3H4gAX94ZssH&_nc_ht=scontent.fjsr8-1.fna&oh=00_AfAYgOPTbDsC87PzHfb7VWQd_TdNdGkQ1IlHKkNYLCHsOA&oe=642B7F3D",
         "blog_title":"Programming Is Learned Faster With These 7 Tips",
         "published_date":"Mar 14 (4 Days ago)",
-        "reading_time": "10"
+        "reading_time": 10
     },
     {
         "id": "3",
@@ -24,7 +24,7 @@
         "author_image":"https://scontent.fjsr8-1.fna.fbcdn.net/v/t39.30808-6/276224511_2788060774830061_8002245592269774411_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=174925&_nc_ohc=Xype4x60fi0AX_jq9TQ&_nc_ht=scontent.fjsr8-1.fna&oh=00_AfA36U1p1EAmIQOjt_ea9UYOsSuJ84srBT_CgunLiz8JNQ&oe=642B4BE4",
         "blog_title":"How to measure Ruby method performance ?",
         "published_date":"Mar 14 (4 Days ago)",
-        "reading_time": "12"
+        "reading_time": 15
     },
     {
         "id": "4",
@@ -33,7 +33,7 @@
         "author_image":"https://scontent.fjsr8-1.fna.fbcdn.net/v/t39.30808-6/279840048_2812764762359662_3920043551120267353_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=174925&_nc_ohc=ehTZKaqV8ckAX9dEvgn&_nc_ht=scontent.fjsr8-1.fna&oh=00_AfBsjcOA7fM6ulAEovGDbeMLzaA2CTLOOmwOmR4zWrVHJA&oe=642BCBE5",
         "blog_title":"How to reset root password in Linux (RHEL,FEDORA) ? What to do if you forgot root password ?",
         "published_date":"Mar 14 (4 Days ago)",
-        "reading_time": "14"
+        "reading_time": 20
     },
     {
         "id": "5",
@@ -42,6 +42,6 @@
         "author_image":"https://scontent.fjsr8-1.fna.fbcdn.net/v/t39.30808-6/277356272_2782182958751176_258692479203368569_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=174925&_nc_ohc=MUQ9qzuyNfoAX8Ojzyh&_nc_ht=scontent.fjsr8-1.fna&oh=00_AfCHd28n4IzCXuKsR3pZcrxqPx-WJwqLsiX1i6TAR3WhVg&oe=642CBD92",
         "blog_title":"Java: How to split Java String with delimeter comma, space, new line, tab ? [SOLVED]",
         "published_date":"Mar 14 (4 Days ago)",
-        "reading_time": "10"
+        "reading_time": 25  
     }
 ]

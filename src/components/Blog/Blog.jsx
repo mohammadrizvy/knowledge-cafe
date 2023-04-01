@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faBookmark } from "@fortawesome/free-solid-svg-icons";
 const Blog = (props) => {
+    console.log(props)
   const {
     image,
     blog_title,
@@ -10,10 +11,10 @@ const Blog = (props) => {
     reading_time,
     published_date,
   } = props.blog;
-  const totalTimeSpent = props.totalTimeSpent;
+ const handleAddTime = props.handleAddTime;
   return (
     <div className="mb-8 border-b-2 pb-6">
-      <img className="w-full rounded-md" src={image} alt="" />
+      <img className="w-full rounded-md shadow-xl" src={image} alt="" />
       <div className="flex justify-between items-center ">
         <div className="flex items-center">
           <img className="rounded-full w-16 mt-6" src={author_image} alt="" />
@@ -41,7 +42,7 @@ const Blog = (props) => {
         </p>
       </div>
       <button
-        onClick={ () => totalTimeSpent(props.blog)}
+        onClick={() => handleAddTime(props.blog)}
         className="link link-primary font-semibold text-lg">
         Mark as read
       </button>

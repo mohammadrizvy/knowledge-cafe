@@ -1,35 +1,36 @@
 import React, { useEffect, useState } from "react";
 import Blog from "../Blog/Blog";
-import SpentTime from "../SpnetTime/SpentTime";
+import Time from "../TimeSpent/Time";
 
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
-  const [time, setTime] = useState([])
+  const [minute, setMinute] = useState([])
   useEffect(() => {
     fetch('blogdata.json')
     .then(res => res.json())
     .then ( data => setBlogs(data))
   },[]);
-
- const totalTimeSpent = (blog) => {
-  const totalTime = [...time,blog]
-  setTime(totalTime);
- };
-
+    const handleAddTime = (blog) => {
+      const newMinute = [...minute,blog];
+      setMinute(newMinute);
+    };
   return (
     <div className="container mx-auto flex justify-between">
       <div className="blogs-container container w-[65%] mt-6">
         {blogs.map((blog) => (
-          <Blog
-            key={blog.id}
-            blog={blog}
-            totalTimeSpent={totalTimeSpent}
-            ></Blog>
+          <Blog 
+          key={blog.id} 
+          blog={blog} 
+          handleAddTime={handleAddTime}
+          ></Blog>
         ))}
       </div>
-      <div className="time-spent w-[25%] mt-6">
-       <SpentTime></SpentTime>
+      <div className="spenttime-container ms-auto w-[25%] mt-6">
+        <Time minute={minute}></Time>
+      </div>
+      <div className="bookmark-container">
+
       </div>
     </div>
   );
