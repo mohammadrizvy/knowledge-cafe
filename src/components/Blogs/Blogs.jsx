@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Blog from "../Blog/Blog";
 import Time from "../TimeSpent/Time";
 import Bookmarks from "../Bookmarks/Bookmarks";
+import Questions from "../Questions/Questions";
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
@@ -28,14 +29,16 @@ const Blogs = () => {
             key={blog.id}
             blog={blog}
             handleAddTime={handleAddTime}
-            handleAddBookmark={handleAddBookmark}>
-            </Blog>
+            handleAddBookmark={handleAddBookmark}></Blog>
         ))}
       </div>
-      <div className="spenttime-container ms-auto w-[25%] mt-6">
+      <div className="spenttime-container ms-auto w-[25%] mt-6 sticky">
         <Time minute={minute}></Time>
         <div className="mx-auto bg-base-200 mt-4 rounded-md p-5">
           <Bookmarks bookmark={bookmark}></Bookmarks>
+        </div>
+        <div className="mt-8 bg-base-300 p-5 rounded-md">
+          <Questions></Questions>
         </div>
       </div>
     </div>

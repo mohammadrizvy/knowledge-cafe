@@ -9,7 +9,7 @@ const Time = ({minute}) => {
 
   return (
     <div>
-      <h2 className="font-bold text-2xl p-6 bg-violet-300 border-2 rounded-md text-violet-600 border-violet-800 text-center">
+      <h2 className="font-bold text-xl p-6 bg-violet-300 border-2 rounded-md text-violet-600 border-violet-800 text-center">
         Spent time on read : {total} Min
       </h2>
     </div>
